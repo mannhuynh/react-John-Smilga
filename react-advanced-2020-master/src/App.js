@@ -8,6 +8,7 @@ import UseEffect2 from "./tutorial/2-useEffect/setup/2-useEffect-cleanup";
 import UseEffect3 from "./tutorial/2-useEffect/setup/3-useEffect-fetch-data";
 import Conditional1 from "./tutorial/3-conditional-rendering/setup/1-multiple-returns";
 import Conditional2 from "./tutorial/3-conditional-rendering/setup/2-short-circuit";
+import Conditional3 from "./tutorial/3-conditional-rendering/setup/3-show-hide";
 
 function App() {
 	return (
@@ -23,6 +24,7 @@ function App() {
 			<UseEffect3 />
 			<Conditional1 />
 			<Conditional2 />
+			<Conditional3 />
 		</div>
 	);
 }

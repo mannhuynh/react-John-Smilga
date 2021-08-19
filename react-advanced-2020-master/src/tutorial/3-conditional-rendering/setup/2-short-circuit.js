@@ -29,6 +29,7 @@ const ShortCircuit = () => {
 					<h3>There is no error</h3>
 				</div>
 			)}
+			<hr />
 		</>
 	);
 };
