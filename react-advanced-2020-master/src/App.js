@@ -9,22 +9,24 @@ import UseEffect3 from "./tutorial/2-useEffect/setup/3-useEffect-fetch-data";
 import Conditional1 from "./tutorial/3-conditional-rendering/setup/1-multiple-returns";
 import Conditional2 from "./tutorial/3-conditional-rendering/setup/2-short-circuit";
 import Conditional3 from "./tutorial/3-conditional-rendering/setup/3-show-hide";
+import Form1 from "./tutorial/4-forms/setup/1-controlled-inputs";
 
 function App() {
 	return (
 		<div className="container">
 			<h1>Advanced Tutorial</h1>
 			<hr />
+			<Form1 />
+			<Conditional1 />
+			<Conditional2 />
+			<Conditional3 />
+			<UseEffect1 />
+			<UseEffect2 />
+			<UseEffect3 />
 			<UseState1 />
 			<UseState3 />
 			<UseState4 />
 			<UseState5 />
-			<UseEffect1 />
-			<UseEffect2 />
-			<UseEffect3 />
-			<Conditional1 />
-			<Conditional2 />
-			<Conditional3 />
 		</div>
 	);
 }

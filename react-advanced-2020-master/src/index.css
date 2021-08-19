@@ -320,5 +320,11 @@ p {
 }
 
 hr {
-	margin-bottom: 40px;
+	width: 40%;
+	height: 2px;
+	border: none;
+	background: rgb(187, 184, 184);
+	/* text-align: center; */
+	margin: 10px auto 50px auto;
+	/* margin-bottom: 40px; */
 }
