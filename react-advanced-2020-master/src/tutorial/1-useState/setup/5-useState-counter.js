@@ -30,7 +30,11 @@ const UseStateCounter = () => {
 				<h2>More Complex Counter</h2>
 				<h1>{value}</h1>
 				<p>Click several times and wait!!!</p>
-				<button className="btn" onClick={complexIncrease}>
+				<button
+					style={{ marginTop: "0px" }}
+					className="btn"
+					onClick={complexIncrease}
+				>
 					Increase Later
 				</button>
 			</section>
