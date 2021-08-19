@@ -4,6 +4,8 @@ import UseState3 from "./tutorial/1-useState/setup/3-useState-array";
 import UseState4 from "./tutorial/1-useState/setup/4-useState-object";
 import UseState5 from "./tutorial/1-useState/setup/5-useState-counter";
 import UseEffect1 from "./tutorial/2-useEffect/setup/1-useEffect-basics";
+import UseEffect2 from "./tutorial/2-useEffect/setup/2-useEffect-cleanup";
+import UseEffect3 from "./tutorial/2-useEffect/setup/3-useEffect-fetch-data";
 
 function App() {
 	return (
@@ -11,12 +13,14 @@ function App() {
 			<h1 style={{ paddingBottom: "0px", marginBottom: "0px" }}>
 				Advanced Tutorial
 			</h1>
-			<hr style={{ margin: "0px auto 20px auto" }} />
+			<hr />
 			<UseState1 />
 			<UseState3 />
 			<UseState4 />
 			<UseState5 />
 			<UseEffect1 />
+			<UseEffect2 />
+			<UseEffect3 />
 		</div>
 	);
 }

@@ -38,6 +38,7 @@ const UseStateCounter = () => {
 					Increase Later
 				</button>
 			</section>
+			<hr style={{ margin: "0px auto 50px auto" }} />
 		</>
 	);
 };
