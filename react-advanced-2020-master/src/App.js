@@ -10,6 +10,7 @@ import Conditional1 from "./tutorial/3-conditional-rendering/setup/1-multiple-re
 import Conditional2 from "./tutorial/3-conditional-rendering/setup/2-short-circuit";
 import Conditional3 from "./tutorial/3-conditional-rendering/setup/3-show-hide";
 import Form1 from "./tutorial/4-forms/setup/1-controlled-inputs";
+import Form2 from "./tutorial/4-forms/setup/2-multiple-inputs";
 
 function App() {
 	return (
@@ -17,6 +18,7 @@ function App() {
 			<h1>Advanced Tutorial</h1>
 			<hr />
 			<Form1 />
+			<Form2 />
 			<Conditional1 />
 			<Conditional2 />
 			<Conditional3 />
