@@ -11,12 +11,16 @@ import Conditional2 from "./tutorial/3-conditional-rendering/setup/2-short-circu
 import Conditional3 from "./tutorial/3-conditional-rendering/setup/3-show-hide";
 import Form1 from "./tutorial/4-forms/setup/1-controlled-inputs";
 import Form2 from "./tutorial/4-forms/setup/2-multiple-inputs";
+import Ref from "./tutorial/5-useRef/setup/1-useRef-basics";
+import Reducer from "./tutorial/6-useReducer/setup";
 
 function App() {
 	return (
 		<div className="container">
 			<h1>Advanced Tutorial</h1>
 			<hr />
+			<Reducer />
+			<Ref />
 			<Form1 />
 			<Form2 />
 			<Conditional1 />
