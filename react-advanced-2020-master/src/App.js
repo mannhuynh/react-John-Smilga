@@ -13,17 +13,22 @@ import Form1 from "./tutorial/4-forms/setup/1-controlled-inputs";
 import Form2 from "./tutorial/4-forms/setup/2-multiple-inputs";
 import Ref from "./tutorial/5-useRef/setup/1-useRef-basics";
 import Reducer from "./tutorial/6-useReducer/setup";
-import PropDrilling from './tutorial/7-prop-drilling/setup/1-prop-drilling'
-import ContextAPI from './tutorial/8-useContext/setup/1-context-api'
-
+import PropDrilling from "./tutorial/7-prop-drilling/setup/1-prop-drilling";
+import ContextAPI from "./tutorial/8-useContext/setup/1-context-api";
+import CustomHook from "./tutorial/9-custom-hooks/setup/1-fetch-example";
+import PropType from "./tutorial/10-prop-types/setup";
+import ReactRouter from "./tutorial/11-react-router/setup";
 
 function App() {
 	return (
 		<div className="container">
 			<h1>Advanced Tutorial</h1>
 			<hr />
-			<ContextAPI/>
-			<PropDrilling/>
+			<ReactRouter />
+			<PropType />
+			<CustomHook />
+			<ContextAPI />
+			<PropDrilling />
 			<Reducer />
 			<Ref />
 			<Form1 />
