@@ -13,12 +13,15 @@ import Form1 from "./tutorial/4-forms/setup/1-controlled-inputs";
 import Form2 from "./tutorial/4-forms/setup/2-multiple-inputs";
 import Ref from "./tutorial/5-useRef/setup/1-useRef-basics";
 import Reducer from "./tutorial/6-useReducer/setup";
+import PropDrilling from './tutorial/7-prop-drilling/setup/1-prop-drilling'
+
 
 function App() {
 	return (
 		<div className="container">
 			<h1>Advanced Tutorial</h1>
 			<hr />
+			<PropDrilling/>
 			<Reducer />
 			<Ref />
 			<Form1 />
