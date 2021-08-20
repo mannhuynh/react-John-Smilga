@@ -24,7 +24,9 @@ const PeopleList = ({ people, handleRemove }) => {
 	return (
 		<div>
 			{people.map((person) => {
-				return <Person {...person} handleRemove={handleRemove} />;
+				return (
+					<Person key={person.id} {...person} handleRemove={handleRemove} />
+				);
 			})}
 		</div>
 	);
